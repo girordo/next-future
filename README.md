@@ -14,6 +14,6 @@ Template for my little side projects using the following technologies:
 
 ## Preview
 
-<img src="https://github.com/girordo/next-future/blob/master/assets/screenshots/screenshot.png" alt="Typescript"/>
+<img src="https://github.com/girordo/next-future/blob/main/assets/screenshots/screenshot.png" alt="Typescript"/>
 
 ## How to use
