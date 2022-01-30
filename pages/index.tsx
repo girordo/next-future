@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Head from 'next/head';
 
 export default function Home() {
   return (
@@ -23,45 +23,61 @@ export default function Home() {
           </code>
         </p>
 
-        <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
+        <div className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-2">
           <a
             href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
+            className="card w-96 rounded-xl border text-left hover:text-blue-600 focus:text-blue-600"
           >
-            <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Find in-depth information about Next.js features and API.
-            </p>
+            <div className="card-body">
+              <h3 className="card-title text-2xl font-bold">
+                Documentation &rarr;
+              </h3>
+              <p className="mt-4 text-xl">
+                Find in-depth information about Next.js features and API.
+              </p>
+            </div>
           </a>
 
           <a
-            href="https://nextjs.org/learn"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
+            href="https://nextjs.org/docs"
+            className="card w-96 rounded-xl border text-left hover:text-blue-600 focus:text-blue-600"
           >
-            <h3 className="text-2xl font-bold">Learn &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Learn about Next.js in an interactive course with quizzes!
-            </p>
+            <div className="card-body">
+              <h3 className="card-title text-2xl font-bold">
+                Documentation &rarr;
+              </h3>
+              <p className="mt-4 text-xl">
+                Find in-depth information about Next.js features and API.
+              </p>
+            </div>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
+            href="https://nextjs.org/docs"
+            className="card w-96 rounded-xl border text-left hover:text-blue-600 focus:text-blue-600"
           >
-            <h3 className="text-2xl font-bold">Examples &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Discover and deploy boilerplate example Next.js projects.
-            </p>
+            <div className="card-body">
+              <h3 className="card-title text-2xl font-bold">
+                Documentation &rarr;
+              </h3>
+              <p className="mt-4 text-xl">
+                Find in-depth information about Next.js features and API.
+              </p>
+            </div>
           </a>
 
           <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
+            href="https://nextjs.org/docs"
+            className="card w-96 rounded-xl border text-left hover:text-blue-600 focus:text-blue-600"
           >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+            <div className="card-body">
+              <h3 className="card-title text-2xl font-bold">
+                Documentation &rarr;
+              </h3>
+              <p className="mt-4 text-xl">
+                Find in-depth information about Next.js features and API.
+              </p>
+            </div>
           </a>
         </div>
       </main>
@@ -78,5 +94,5 @@ export default function Home() {
         </a>
       </footer>
     </div>
-  )
+  );
 }
