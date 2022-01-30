@@ -39,7 +39,6 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     'jsx-a11y/accessible-emoji': 'off',
     'react/prop-types': 'off',
-    'react/no-unescaped-entities': 'off',
     'import/no-cycle': [0, { ignoreExternal: true }],
     'prefer-const': 'warn',
     'no-use-before-define': 'off',
