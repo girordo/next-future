@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-export default function Home() {
+const Home = () => {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center py-2">
       <Head>
@@ -95,4 +95,6 @@ export default function Home() {
       </footer>
     </div>
   );
-}
+};
+
+export default Home;
