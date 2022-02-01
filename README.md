@@ -7,6 +7,7 @@
      <img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square" alt="Gitmoji">
     </a>
   </div>
+</section>
 
   - <img src="https://github.com/girordo/geticon/blob/master/icons/typescript-icon.svg" alt="Typescript" width="28px" height="28px"/> Typescript
   - <img src="https://github.com/girordo/geticon/blob/master/icons/react.svg" alt="React" width="28px" height="28px"/> React
@@ -16,8 +17,6 @@
   - <img src="https://github.com/girordo/geticon/blob/master/icons/eslint.svg" alt="ESLint" width="28px" height="28px"/> ESLint
   - <img src="https://github.com/girordo/geticon/blob/master/icons/prettier.svg" alt="Prettier" width="28px" height="28px"/> Prettier
   - <img src="https://editorconfig.org/logo.png" alt="EditorConfig" width="28px" height="28px"> EditorConfig
-
-</section>
 
 ## Preview
 
