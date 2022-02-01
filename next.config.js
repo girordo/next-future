@@ -32,12 +32,10 @@ const securityHeaders = [
     key: 'Referrer-Policy',
     value: 'origin-when-cross-origin',
   },
-  {
-    /*
-    key: "Content-Security-Policy",
-    value: "script-src 'self' ",
-  */
-  },
+  // {
+  //   key: "Content-Security-Policy",
+  //   value: "script-src 'self' ",
+  // },
 ];
 module.exports = {
   reactStrictMode: true,
