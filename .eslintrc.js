@@ -23,7 +23,6 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:jsx-a11y/recommended',
     'plugin:prettier/recommended',
-    'plugin:tailwindcss/recommended',
     'plugin:import/typescript',
   ],
   plugins: [
@@ -56,8 +55,5 @@ module.exports = {
         aspects: ['invalidHref', 'preferButton'],
       },
     ],
-    'tailwindcss/classnames-order': 'warn',
-    'tailwindcss/no-custom-classname': 'off',
-    'tailwindcss/no-contradicting-classname': 'error',
   },
 };
