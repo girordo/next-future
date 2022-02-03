@@ -4,6 +4,12 @@ const Home = () => {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center py-2">
       <Head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;6"
+          rel="stylesheet"
+        />
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
