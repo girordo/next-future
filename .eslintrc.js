@@ -45,6 +45,7 @@ module.exports = {
       'error',
       { functions: false, classes: false, variables: true },
     ],
+    '@typescript-eslint/no-var-requires': 'off',
     'simple-import-sort/imports': 'error',
     'simple-import-sort/exports': 'error',
     'jsx-a11y/anchor-is-valid': [
